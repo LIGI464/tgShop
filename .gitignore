@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+.coverage
+
+# Node.js / tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Databases and runtime state
+*.sqlite
+*.sqlite3
+*.db
+data/
+runtime/
+logs/
+*.log
+
+# Build and OS/editor files
+dist/
+build/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local worktree notes
+.codex-local/
